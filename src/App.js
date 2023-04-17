@@ -1,8 +1,8 @@
-import About from "../src/pages/About"
+import Layout from "./Layout"
 
-function App() {
+const App = () => {
   return (
-    <About />
+    <Layout />
   );
 }
 
