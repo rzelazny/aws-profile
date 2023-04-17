@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Col, Media} from 'reactstrap';
 
-import Headshot from "../static/images/ryan_zelazny_headshot.jpg";
-import Rutgers from "../static/images/Rutgers.png";
-import PSU from "../static/images//PSU.png";
+import Headshot from "../../static/images/Headshot.jpg";
+import Rutgers from "../../static/images/Rutgers.png";
+import PSU from "../../static/images//PSU.png";
 
 const About = () => {
 
