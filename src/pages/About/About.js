@@ -4,10 +4,13 @@ import { Container, Row, Col, Media} from 'reactstrap';
 import Headshot from "../../static/images/Headshot.jpg";
 import Rutgers from "../../static/images/Rutgers.png";
 import PSU from "../../static/images//PSU.png";
+import AboutContent from './AboutContent';
 
 const About = () => {
+    const content = AboutContent.en;
 
     return (
+
         <Container fluid className="container">
             <Row>
                 {/* <!-- Headshot column --> */}
@@ -20,7 +23,7 @@ const About = () => {
                         <h2>About Me</h2>
                         <hr />
                     </header>
-                    <p>A software developer by trade, I live in upstate New York with my wife and two dogs. I enjoy cooking, board games with friends, and the occasional trip abroad when there isn't a global pandemic.</p>
+                    <p>{content.paraOne}</p>
                     <p>Recently I've been expanding my skill set. I've completed Rutgers University's full stack coding boot camp, and continue to work on my MERN stack skills. </p>
                     <header>
                         <h2>Experience and Skills</h2>
