@@ -4,7 +4,7 @@ import Navibar from "./components/Navibar/Navibar";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/About/About.js";
 import NoMatch from "./pages/NoMatch/NoMatch.js";
-
+import "./App.css";
 const App = props => {
     return (
     <>
@@ -17,7 +17,7 @@ const App = props => {
         </HashRouter>
         {/* <Footer /> */}
     </>
-  );
+    );
 }
 export default App
 
